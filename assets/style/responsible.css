@@ -1,0 +1,375 @@
+@media only screen and (max-width:1050px) {
+    .main{
+        padding: 70px 100px;
+    }
+    .main-photo{
+        width: 200px;
+        height: 200px;
+    }
+    .main-texts{
+        font-size: 15px;
+    }
+    .extra-text{
+        display: none;
+    }
+    .menu ul li{
+        margin: 0;
+    }
+    .shape1,
+    .shape1::before,
+    .shape1::after,
+    .shape2,
+    .shape2::before,
+    .shape2::after{
+        transform: scale(0.764);
+    }
+    .about-born{
+        font-size:20px;
+        top: 100px;
+        right: 150px;
+    }
+    .about-name{
+        font-size: 30px;
+    }
+    .about-school-name{
+        width: 300px;
+        text-align: center;
+    }
+    .project{
+        padding: 70px 100px;
+    }
+    .contact{
+        padding: 50px 70px;
+    }
+    .faqs{
+        padding: 70px;
+    }
+    .faqs-ans{
+        margin-top: 20px;
+        transform: translateX(-0px);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .main{
+        padding: 70px 0px;
+    }
+    .menu h2{
+        font-size: 20px;
+    }
+    .ri-menu-3-line,
+    .ri-close-line{
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 100;
+    }
+    .menu ul{
+        position: absolute;
+        display: grid;
+        top: 0;
+        bottom: 0;
+        right: -100%;
+        height: 100vh;
+        width:40%;
+        transition: 1s all;
+        /* background: linear-gradient(to right, transparent,white,white); */
+        background: rgba(255,255,255,0.861);
+        backdrop-filter: blur(50px);
+        padding-top: 100px ;
+    }
+    .main-texts {
+        width: 250px;
+    }
+    .main-texts h3{
+        font-size: 20px;
+    }
+    .main-texts h2{
+        font-size: 20px;
+    }
+    .main-texts h4{
+        font-size: 13px;
+    }
+    .shape1,
+    .shape1::before,
+    .shape1::after,
+    .shape2,
+    .shape2::before,
+    .shape2::after{
+        transform: scale(0.5);
+        z-index: 0;
+    }
+    .about-born{
+        font-size:20px;
+        top: 100px;
+        right: 150px;
+    }
+    .about-name{
+        font-size: 30px;
+    }
+    .about-school-name{
+        width: 300px;
+        text-align: center;
+    }
+    .shape1::before{
+        top: 70px;
+        left:90px;
+    }
+    .shape1::after{
+        top:0px;
+        left:0px;
+    }
+    .shape2::before{
+        bottom: 70px;
+        right:90px;
+    }
+    .shape2::after{
+        bottom:0px;
+        right:0px;
+    }
+    .about{
+        padding: 100px 75px;
+    }
+    .about-born{
+        font-size:15px;
+        top: 200px;
+        right: 0px;
+        transform: rotate(90deg);
+    }
+    .about-future{
+        font-size: 20px;
+    }
+    .about-name{
+        font-size: 30px;
+    }
+    .about-school-name{
+        width: 300px;
+        text-align: center;
+    }
+    .project{
+        height: auto;
+    }
+    .box-projects{
+        display: inline-block;
+    }
+    .project-cards{
+        margin-bottom: 30px;
+    }
+    .contact{
+        padding: 30px;
+    }
+    .send-box{
+        width: 65%;
+    }
+    .description-box{
+        width: 35%;
+    }
+    .description-box h3{
+        font-size: 20px;
+    }
+    .description-box h2{
+        font-size: 30px;
+    }
+    .description-box p{
+        font-size: 17px;
+    }
+    .description-box h4{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .description-box-socials{
+        width: 100%;
+        display: flex;
+    }
+    .description-box-socials .ri-telegram-line,
+    .description-box-socials .ri-instagram-line,
+    .description-box-socials .ri-github-line{
+    
+        display: inline-block;
+        color:#fff ;
+        margin-right: 20px;
+        margin-top: 20px;
+        transform: translateX(20px) scale(2);
+    }
+    @keyframes border-color {
+
+        20%{
+            border-top: transparent solid 7px;
+            border-right: #fff solid 7px;
+            border-bottom: #fff solid 7px;
+            border-left: #fff solid 7px;
+        }
+        40%{
+            border-right: transparent solid 7px;
+            border-top: #fff solid 7px;
+            border-bottom: #fff solid 7px;
+            border-left: #fff solid 7px;
+        }
+        60%{
+            border-bottom: transparent solid 7px;
+            border-right: #fff solid 7px;
+            border-top: #fff solid 7px;
+            border-left: #fff solid 7px;
+        }
+        80%{
+            border-left: transparent solid 7px;
+            border-right: #fff solid 7px;
+            border-bottom: #fff solid 7px;
+            border-top: #fff solid 7px;
+        }
+       
+    }
+    .ri-arrow-right-s-line{
+        display: none;
+    }
+    .faqs{
+        padding: 70px 30px;
+        height: 105vh;
+    }
+    .faqs-ans{
+        margin-top: 20px;
+        transform: translateX(-0px);
+    }
+    .faqs-box{
+        width: 85%;
+    }
+}
+@media only screen and (max-width:600px){
+    .main{
+        display: grid;
+    }
+    .main-photo{
+        width: 170px;
+        height: 170px;
+    }
+    .main .socials{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .socials a{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .extra-text{
+        display: block;
+        transform: rotate(0deg);
+        bottom:30px;
+        right: 45%;
+    }
+    .menu ul{
+        width: 100%;
+    }
+    .menu ul li{
+        font-size: 20px;
+        width: 100%;
+        /* background: #000; */
+        padding: 0;
+        height: 35px;
+        margin: 0;
+    }
+    .about{
+        text-align: center;
+        /* display: inline-block; */
+       
+        padding: 0;
+    }
+    .about-image{
+        width: 200px;
+        height: 200px;
+    }
+    .about-name{
+        font-size: 25px;
+    }
+    .about-born{
+        top: 200px;
+        right: -30px;
+    }
+    .about-future{
+        left: -30px;
+        font-size: 15px;
+    }
+    .about-school-name{
+        transform: translateY(-100px);
+    }
+    .project{
+        /* height: auto; */
+        padding: 0;
+        padding-top: 100px;
+    }
+    .box-projects{
+        display: inline-block;
+    }
+    .project-cards{
+        width: 350px;
+        height: 300px;
+    }
+    .contact{
+        padding: 70px 10px 10px 10px;
+        height: auto;
+        display: inline-block;
+    }
+    .send-box{
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        height: 60vh;
+        padding: 30px 0;
+    }
+    .send-box h3{
+        transform: translateX(20px);
+    }
+    .description-box{
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .description-box h3{
+        font-size: 20px;
+    }
+    .description-box h2{
+        font-size: 30px;
+    }
+    .description-box p{
+        font-size: 17px;
+    }
+    .description-box h4{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .description-box-socials{
+        width: 100%;
+        display: flex;
+    }
+    .description-box-socials .ri-telegram-line,
+    .description-box-socials .ri-instagram-line,
+    .description-box-socials .ri-github-line{
+    
+        display: inline-block;
+        color:#fff ;
+        margin-right: 20px;
+        margin-top: 20px;
+        transform: translateX(20px) scale(2);
+    }
+    .faqs{
+        padding: 50px;
+        height: 105vh;
+    }
+    .faqs-ans{
+        margin-top: 20px;
+        transform: translateX(-0px);
+    }
+    .faqs-ques{
+        font-size:15px;
+    }
+    .faqs-ans{
+        font-size:10px;
+    }
+    .faqs-box{
+        width: 95%;
+        height: 160px;
+    }
+}
